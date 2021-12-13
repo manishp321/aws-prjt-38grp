@@ -1,7 +1,7 @@
 .nav-bar{
     background-color: #242424;
     color: #ffff;
-    height: auto;
+    height: max-content;
     width: 100%;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .navbar-container > div > .logo-img {
-    height: 100px;
+    height: 80px;
 }
 .nav-bar-toggle > ul{
     display: flex;
