@@ -4,13 +4,16 @@ import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Card from './components/Card';
 import Footer from './components/Footer';
+import Signup from './components/Signup';
+import Cart from './components/Cart';
+
 
 function App() {
   return (
     <div className="App">
         <Router>
       <NavBar />
-      <Card/>
+      <Cart/>
       <Footer/>
          <Routes>
            <Route path='/' exact />
