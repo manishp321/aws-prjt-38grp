@@ -1,9 +1,12 @@
 import React from 'react'
+import NavBar from './NavBar';
+import Footer from './Footer';
 import './Cart.css';
 
 function Cart(){
     return(
         <>
+        <NavBar/>
         <section class="container content-section">
   <h2 class="section-header">CART</h2>
   <div class="cart-row">
@@ -27,7 +30,7 @@ function Cart(){
     <button class="btn btn-primary btn-purchase" type="submit">PURCHASE</button>
   </form>
 </section>
-        
+        <Footer/>
         </>
     )
 }

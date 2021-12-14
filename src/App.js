@@ -7,6 +7,7 @@ import Menu from './components/Menu';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Vendor from './components/Vendor';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/menu" component={Menu} />
         <Route exact path="/signup" component={Signup} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/cart" component={Cart} />
         <Route exact path="/vendor" component={Vendor} />
         <Redirect to="/" />
       </Switch>
