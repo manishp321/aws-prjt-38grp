@@ -1,9 +1,12 @@
 import React from 'react';
+import Footer from './Footer';
 import './Menu.css';
+import NavBar from './NavBar';
 
 function Menu(){
     return (
             <>
+            <NavBar></NavBar>
             <div className='menu-page'>
                     <div className='restro-home'>
                         <img src='images/image1.jpg' className='restro-profile-img' alt='image' />
@@ -34,6 +37,7 @@ function Menu(){
                     </div>
                     <hr/>
             </div>
+            <Footer></Footer>
             </>
 
     )

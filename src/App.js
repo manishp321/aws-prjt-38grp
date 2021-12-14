@@ -1,26 +1,26 @@
 import React from 'react'
 import './App.css';
-import NavBar from './components/NavBar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Card from './components/Card';
-import Footer from './components/Footer';
-import Signup from './components/Signup';
-import Cart from './components/Cart';
+
+import {BrowserRouter ,Switch, Route, Redirect } from "react-router-dom";
+import Home from './components/Home';
 import Menu from './components/Menu';
+import Signup from './components/Signup';
+import Login from './components/Login';
+import Vendor from './components/Vendor';
 
 
 function App() {
   return (
-    <div className="App">
-        <Router>
-      <NavBar />
-      <Menu/>
-      <Footer/>
-         <Routes>
-           <Route path='/' exact />
-         </Routes>
-      </Router>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/menu" component={Menu} />
+        <Route exact path="/signup" component={Signup} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/vendor" component={Vendor} />
+        <Redirect to="/" />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

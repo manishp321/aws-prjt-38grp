@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from './Footer';
 import './Login.css';
+import NavBar from './NavBar';
 
 function Login(){
     return(
         <>
+        <NavBar></NavBar>
         <div className='login'>
                 <h1>LOGIN</h1>
             <div className='login-wrap'>
@@ -16,6 +19,7 @@ function Login(){
             <button>LOGIN</button>
 
         </div>
+        <Footer></Footer>
         </>
     )
 }

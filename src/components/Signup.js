@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from './Footer';
+import NavBar from './NavBar';
 import './Signup.css';
 
 function Signup(){
     return(
         <>
+        <NavBar></NavBar>
         <div className='signup'>
                 <h1>CREATE ACCOUNT</h1>
             <div className='login-wrap'>
@@ -20,6 +23,7 @@ function Signup(){
             <button>signup</button>
 
         </div>
+        <Footer></Footer>
         </>
     )
 }

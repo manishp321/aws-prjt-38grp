@@ -13,7 +13,7 @@ function Cards() {
               src='images/image2.jpg'
               text='Resturant1'
               label='Burger house'
-              path='/services'
+              path='/menu'
             />
               </ul>
           <ul className='cards__items'>
@@ -21,7 +21,7 @@ function Cards() {
               src='images/image2.jpg'
               text='Resturant2'
               label='Pizza'
-              path='/services'
+              path='/menu'
             />
           </ul>
           <ul className='cards__items'>
@@ -29,7 +29,7 @@ function Cards() {
               src='images/image1.jpg'
               text='Resturant3'
               label='Taco'
-              path='/services'
+              path='/menu'
             />
              </ul>
           <ul className='cards__items'>
@@ -37,7 +37,7 @@ function Cards() {
               src='images/image1.jpg'
               text='Resturant4'
               label='Coffee'
-              path='/products'
+              path='/menu'
             />
              </ul>
           <ul className='cards__items'>
@@ -45,7 +45,7 @@ function Cards() {
               src='images/image1.jpg'
               text='Resturant5'
               label='Italian'
-              path='/sign-up'
+              path='/menu'
             />
           </ul>
           <ul className='cards__items'>
@@ -53,7 +53,7 @@ function Cards() {
               src='images/image1.jpg'
               text='Resturant5'
               label='Italian'
-              path='/sign-up'
+              path='/menu'
             />
           </ul>
           <ul className='cards__items'>
@@ -61,7 +61,7 @@ function Cards() {
               src='images/image1.jpg'
               text='Resturant5'
               label='Italian'
-              path='/sign-up'
+              path='/menu'
             />
           </ul>
 

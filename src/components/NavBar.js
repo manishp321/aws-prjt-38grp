@@ -10,27 +10,35 @@ function NavBar(){
                 <div><img src='images/logo.png' alt='logo' className='logo-img'/></div>
                 <div> <input type="text" placeholder="search for Resturants" /><button>Search</button></div>
                 <div>
-                <button>SIGN UP</button>
-                <button>SIGN IN</button>
+                <button>
+                    <Link to='/signup'>
+                        Sign Up
+                    </Link>
+                </button>
+                <button>
+                    <Link to='/signup'>
+                        Login
+                    </Link>
+                </button>
                 </div>
                 </div>
                 <div className='nav-bar-toggle'>
 
                     <ul>
                     <li className='nav-item'>
-                    <Link to='/cart' className='nav-links' >
+                    <Link to='/' className='nav-links' >
                         HOME
                     </Link>            
                     </li>
 
                     <li className='nav-item'>
-                    <Link to='/cart' className='nav-links' >
+                    <Link to='/' className='nav-links' >
                         RESTURANTS
                     </Link>            
                     </li>
 
                     <li className='nav-item'>
-                    <Link to='/cart' className='nav-links' >
+                    <Link to='/vendor' className='nav-links' >
                         FOR RESTURANTS
                     </Link>            
                     </li>
