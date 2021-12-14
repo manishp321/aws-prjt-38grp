@@ -6,6 +6,7 @@ import Card from './components/Card';
 import Footer from './components/Footer';
 import Signup from './components/Signup';
 import Cart from './components/Cart';
+import Menu from './components/Menu';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
         <Router>
       <NavBar />
-      <Cart/>
+      <Menu/>
       <Footer/>
          <Routes>
            <Route path='/' exact />
